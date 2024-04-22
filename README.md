@@ -1,6 +1,8 @@
 
+![Untitled-2024-04-21-1700](https://github.com/al3x609/kodekloud-challenges-terraform/assets/4086644/8a4bd17a-ec41-4c57-b127-db4ac378306d)
 
-0. pre requisitos Ansible
+
+0. pre requisito Ansible
 
 ~~~
 apt update
@@ -31,9 +33,11 @@ sudo apt install terraform=1.1.5
 
 2. clonar el repositorio
 3. ejecutar playbook
+~~~
 ansible-playbook -i inventory.yaml playbook.yaml
+~~~
 
-3.  ingresar al directorio ~/terraform_challenge/ 
+4.  ingresar al directorio ~/terraform_challenge/ 
 
 ~~~
 terraform init
